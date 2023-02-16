@@ -39,9 +39,10 @@ def getLinks():
                 notcredibletxt.write(y + " " + result + "\n")
             continue
 
+getLinks()
 
-schedule.every(60).minutes.do(getLinks)
+#schedule.every(60).minutes.do(getLinks)
 
-while True:
-    schedule.run_pending()
-    time.sleep(1)
+#while True:
+ #   schedule.run_pending()
+ #   time.sleep(1)
